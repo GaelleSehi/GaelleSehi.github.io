@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gaëlle Sehi</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <h1>Gaëlle Sehi</h1>
+          <p class="tagline">Spatial epidemiology • mosquito ecology • applied modeling</p>
+        </div>
+      </div>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/publications/">Publications</a>
+        <a href="/cv/">CV</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <section class="section">
+        <h2>Selected work</h2>
+        <div class="grid">
+          <a class="card" href="/projects/">
+            <img src="/assets/project1.png" alt="Project preview" />
+            <div class="txt">
+              <h3>Mosquito forecasting</h3>
+              <p>Short-horizon prediction for operational decision support.</p>
+            </div>
+          </a>
+          <a class="card" href="/projects/">
+            <img src="/assets/project2.png" alt="Project preview" />
+            <div class="txt">
+              <h3>SIT simulation / ABM</h3>
+              <p>Targeted release strategies + cost questions.</p>
+            </div>
+          </a>
+          <a class="card" href="/projects/">
+            <img src="/assets/project3.png" alt="Project preview" />
+            <div class="txt">
+              <h3>Healthcare access</h3>
+              <p>Travel-time modeling under realistic scenarios.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <small>© <span id="y"></span> Gaëlle Sehi</small>
+    </div>
+  </footer>
+
+  <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
