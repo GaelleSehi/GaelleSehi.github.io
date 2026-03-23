@@ -160,3 +160,56 @@ footer{color:var(--muted);padding-top:18px;}
 .project-meta li {
   margin-bottom: 0.35rem;
 }
+.accordion-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  padding: 0;
+  overflow: hidden;
+}
+
+.accordion-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.accordion-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-item summary::after {
+  content: "+";
+  float: right;
+  font-size: 1.2rem;
+}
+
+.accordion-item[open] summary::after {
+  content: "–";
+}
+
+.accordion-content {
+  padding: 0 1.25rem 1.25rem 1.25rem;
+  border-top: 1px solid #eee;
+}
+
+.accordion-content p {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.accordion-content ul {
+  margin: 0.75rem 0 0 1.2rem;
+}
+
+.accordion-content li {
+  margin-bottom: 0.4rem;
+}
