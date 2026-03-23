@@ -24,18 +24,91 @@
     </div>
   </header>
 
-  <main>
-    <div class="wrap">
-      <section class="section">
-        <h2>Projects</h2>
-        <ul class="list">
-          <li><strong>Mosquito forecasting (2017–2023)</strong> — 2-week-ahead site-level forecasts. <a href="#">Paper</a> · <a href="#">Code</a></li>
-          <li><strong>SIT simulation / ABM</strong> — uniform vs targeted releases + cost questions. <a href="#">Slides</a> · <a href="#">Code</a></li>
-          <li><strong>Healthcare access (Ethiopia)</strong> — travel-time modeling under scenarios. <a href="#">Preprint</a> · <a href="#">Repo</a></li>
-        </ul>
-      </section>
-    </div>
-  </main>
+<main>
+  <div class="wrap">
+    <section class="section">
+      <h2>Projects</h2>
+      <p class="section-intro">
+        A selection of projects in mosquito ecology, forecasting, simulation, and spatial access to care.
+      </p>
+
+      <div class="project-grid">
+
+        <article class="project-card" id="ecological-modeling">
+          <h3>Ecological modeling of <em>Aedes aegypti</em> abundance</h3>
+          <p>
+            This project examined environmental drivers of <em>Aedes aegypti</em> abundance in the West Valley region of San Bernardino County from 2017 to 2023 using ecological modeling approaches.
+          </p>
+          <p class="project-links">
+            <a href="/assets/sehi-2025-paper.pdf" target="_blank">Paper</a>
+          </p>
+          <div class="project-meta">
+            <h4>Presentations &amp; conferences</h4>
+            <ul>
+              <li>ASTMH 2024</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card" id="forecasting">
+          <h3>Mosquito forecasting (2017–2023)</h3>
+          <p>
+            This project focuses on 2-week-ahead site-level forecasts of mosquito abundance using surveillance, environmental, and spatial predictors. It compares GAM, Random Forest, and spatial Random Forest approaches.
+          </p>
+          <p class="project-links">
+            <a href="#">Paper</a>
+            <a href="#">Code</a>
+            <a href="#">Slides</a>
+          </p>
+          <div class="project-meta">
+            <h4>Presentations &amp; conferences</h4>
+            <ul>
+              <li>AMCA 2026</li>
+              <li>Conference presentation in progress</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card" id="sit-abm">
+          <h3>SIT simulation / agent-based modeling</h3>
+          <p>
+            This project uses an agent-based model to compare area-wide and targeted sterile insect technique (SIT) release strategies and to explore their operational and cost implications.
+          </p>
+          <p class="project-links">
+            <a href="#">Slides</a>
+            <a href="#">Code</a>
+          </p>
+          <div class="project-meta">
+            <h4>Presentations &amp; conferences</h4>
+            <ul>
+              <li>Dissertation research presentation</li>
+              <li>PacVec presentation</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card" id="healthcare-access">
+          <h3>Healthcare access (Ethiopia)</h3>
+          <p>
+            This project evaluates geographic access to emergency and neurosurgical care in Ethiopia using travel-time models built from population, roads, land cover, and elevation data.
+          </p>
+          <p class="project-links">
+            <a href="#">Preprint</a>
+            <a href="#">Repo</a>
+            <a href="#">Poster</a>
+          </p>
+          <div class="project-meta">
+            <h4>Presentations &amp; conferences</h4>
+            <ul>
+              <li>UC Irvine research presentation</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </div>
+</main>
 
   <footer><div class="wrap"><small>© <span id="y"></span> Gaëlle Sehi</small></div></footer>
   <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
