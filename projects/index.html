@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects • Gaëlle Sehi</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <h1><a href="/" style="text-decoration:none;color:inherit;">Gaëlle Sehi</a></h1>
+          <p class="tagline">Spatial epidemiology • mosquito ecology • applied modeling</p>
+          <p class="role">Postdoctoral Researcher, UKM</p>
+        </div>
+      </div>
+         <nav>
+      <a href="/">Home</a>
+      <a href="/about/">About</a>
+      <a href="/projects/">Projects</a>
+      <a href="/publications/">Publications</a>
+      <a href="/service-leadership/">Service &amp; Leadership</a>
+      <a href="/gallery/">Gallery</a>
+      <a href="/cv/">CV</a>
+    </nav>
+    </div>
+  </header>
+
+<main>
+  <div class="wrap">
+    <section class="section">
+      <h2>Projects</h2>
+      <p class="section-intro">
+        A selection of projects in mosquito ecology, forecasting, simulation, and spatial access to care.
+      </p>
+
+      <div class="project-grid">
+
+        <article class="project-card" id="ecological-modeling">
+          <h3>Ecological modeling of <em>Aedes aegypti</em> abundance</h3>
+          <p>
+            This project examined environmental drivers of <em>Aedes aegypti</em> abundance in the West Valley region of San Bernardino County from 2017 to 2023 using ecological modeling approaches.
+          </p>
+          <p class="project-links">
+            <a href="/assets/sehi-2025-paper.pdf" target="_blank">Paper</a>
+          </p>
+          <div class="project-meta">
+            <h4>Presentations &amp; conferences</h4>
+            <ul>
+              <li>ASTMH 2024</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card" id="forecasting">
+          <h3>Mosquito forecasting (2017–2023)</h3>
+          <p>
+            This project focuses on 2-week-ahead site-level forecasts of mosquito abundance using surveillance, environmental, and spatial predictors. It compares GAM, Random Forest, and spatial Random Forest approaches.
+          </p>
+          <p class="project-links">
+            <span class="muted">Paper in preparation</span>
+          </p>
+          <div class="project-meta">
+            <h4>Presentations &amp; conferences</h4>
+            <ul>
+              <li>AMCA 2026</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card" id="tbe-germany">
+          <h3>Tick-borne encephalitis (TBE) modeling for Germany</h3>
+          <p>
+            Part of the VBD-MODE consortium, this project builds a multi-model ensemble — combining GAM, INLA, XGBoost, tick phenology, species distribution-derived receptivity indices, and cost-effectiveness analysis — to forecast TBE risk across Germany and support public health decision-making.
+          </p>
+          <p class="project-links">
+            <span class="muted">In progress</span>
+          </p>
+          <div class="project-meta">
+            <h4>Presentations &amp; conferences</h4>
+            <ul>
+              <li>International One Health Symposium, Berlin (Oct 2026) — "When does forecasting become actionable?"</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card" id="sit-abm">
+          <h3>SIT simulation / agent-based modeling</h3>
+          <p>
+            This project uses an agent-based model to compare area-wide and targeted sterile insect technique (SIT) release strategies and to explore their operational and cost implications.
+          </p>
+          <p class="project-links">
+            <span class="muted">Chapter 4 of dissertation</span>
+          </p>
+          <div class="project-meta">
+            <h4>Presentations &amp; conferences</h4>
+            <ul>
+              <li>Dissertation research presentation</li>
+              <li>PacVec presentation</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card" id="healthcare-access">
+          <h3>Healthcare access (Côte d'Ivoire)</h3>
+          <p>
+            This project evaluates geographic access to care in Côte d'Ivoire using travel-time models built from population, roads, land cover, and elevation data, using OpenStreetMap facility data.
+          </p>
+          <p class="project-links">
+            <span class="muted">Under revision</span>
+          </p>
+          <div class="project-meta">
+            <h4>Presentations &amp; conferences</h4>
+            <ul>
+              <li>UC Irvine research presentation</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </div>
+</main>
+
+  <footer><div class="wrap"><small>© <span id="y"></span> Gaëlle Sehi</small></div></footer>
+  <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
